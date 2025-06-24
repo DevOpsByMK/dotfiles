@@ -1,0 +1,19 @@
+# ~/.bashrc - Custom dotfiles bashrc example
+
+# Source the default bashrc to keep system defaults
+if [ -f /etc/bash.bashrc ]; then
+    . /etc/bash.bashrc
+fi
+
+# Custom Aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Add user bin to PATH
+export PATH="$HOME/bin:$PATH"
+
+# Enable color support
+export LS_COLORS='di=34:fi=0:ln=36:pi=33:so=35:bd=33;01:cd=33;01:or=31;01:mi=05;37;41'
+
+# Other customizations here ...
