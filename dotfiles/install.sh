@@ -27,6 +27,7 @@ backup_file() {
         mv "$1" "$1.backup"
     fi
 }
+echo "Test files" > /opt/file1
 
 backup_file ~/.bashrc
 backup_file ~/.vimrc
