@@ -1,0 +1,12 @@
+[user]
+    name = Murali
+    email = devopsbymk@gmail.com.com
+
+[core]
+    editor = vim
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
